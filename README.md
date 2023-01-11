@@ -1,4 +1,0 @@
-# BarberiaAlura
-# BarberiaAlura
-# BarberiaAlura-
-# BarberiaAlura-
