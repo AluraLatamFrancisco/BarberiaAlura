@@ -1,6 +1,25 @@
 
 .header{
     background: #BBBBBB;
+    /*le decimos que tendra un margen superior he inferior de 20px y 0 en izquierda derecha*/
+    padding: 20px 0;
+}
+.nav-bar{
+    /*position no ayuda a colocar una posicion absoluta y mover los emelentos*/
+    position: absolute;
+    /*Damos un tipo margen de 110 px*/
+    top: 110px;
+    /*lo dejamos en 0*/
+    right: 0;
+    
+}
+.nav-bloqu{
+    /*se asigna el valor que necesitamos que tenga*/
+    width: 940px;
+    /*Podemos mover todos elementos a una posicion */
+    position: relative;
+    /*le decimos que necesitamos un margen  automatico */
+    margin: 0 auto;
 }
 .nav-bar .lis{
     display: inline;
