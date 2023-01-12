@@ -75,7 +75,7 @@ border-radius: 30px;
 /*Efectos en Css*/
 /*con la funcion hover se puede carptura eventos*/
 .nav-bar a:hover{
-    color: blue;
+    color: blueviolet;
     text-decoration: underline;
     }
     
