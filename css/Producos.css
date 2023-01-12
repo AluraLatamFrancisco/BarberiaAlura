@@ -33,3 +33,49 @@
     font-size:  22px;
     text-decoration: none;
 }
+
+/*Estilos a nuestro Bloque productos*/
+.Pro-bloque{
+    width: 940px;
+  margin: 0 auto;
+  padding: 50px;
+}
+.Pro-bloque .Bloque{
+    /*usamos display inline block para crear bloques de espacion de los items*/
+display: inline-block;
+text-align: center;
+/*le decimos que ocupe el 30% de su espacion asigando*/
+width: 30%;
+vertical-align: top;
+margin: 0 1.5%;
+/*damos un margen de sepracion entre items */
+padding: 30px 20px;
+/*Cuando el espacio supera lo propuesto en nuestro html se utiliza*/
+box-sizing: border-box;
+/*Se coloca una borde de color negro*/
+border: 2px #000000 solid;
+/*se coloca el border en pixeles*/
+border-radius: 30px;
+
+}
+
+.Til_Bloq{
+    font-size: 30px;
+    font-weight: bold;
+}
+.Pro_pre{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.Pro_des{
+    font-size: 18px;
+
+}
+/*Efectos en Css*/
+/*con la funcion hover se puede carptura eventos*/
+.nav-bar a:hover{
+    color: blue;
+    text-decoration: underline;
+    }
+    
