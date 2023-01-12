@@ -63,6 +63,7 @@ border-radius: 30px;
     font-size: 30px;
     font-weight: bold;
 }
+
 .Pro_pre{
     font-size: 20px;
     font-weight: bold;
@@ -78,4 +79,29 @@ border-radius: 30px;
     color: blueviolet;
     text-decoration: underline;
     }
+    .Pro-bloque .Bloque:hover{
+        border-color: aqua;
+
+    }
+    .Pro-bloque .Bloque:active{
+        border-color: green;
+
+    }
+    .Pro-bloque .Bloque:hover .Til_Bloq{
+        font-size:  33px;
     
+    }
+
+    /*aqui el pie de pagina */
+
+    footer{
+        text-align: center;
+        background: url(/img/bg.jpg);
+        padding: 40px;
+
+    }
+ .foot{
+        color: #ffff;
+        font-size: 20px;
+        margin: 20px;
+    }
