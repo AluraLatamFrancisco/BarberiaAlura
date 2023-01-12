@@ -4,17 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/Style.css">
     <title>Barberia Alura</title>
 </head>
 <body>
- <header>
-<h1 class="titulo-centralizado" >Barberia Alura</h1>
+ <header class="header">
 
+<div class="nav-bloqu">
+    <h1 class="titulo-centralizado" >Barberia Alura</h1>
+    <h1><a href="index.html"><img class="Logo" src="img/logo.png" alt="Logo" /></a></h1>
+
+    <nav class="nav-bar">
+      <ul>
+        <li class="lis"><a href="index.html">Home</a></li>
+        <li class="lis"><a href="Productos.html">Producto</a></li>
+        <li class="lis"><a href="Contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
  </header>
  <main>
-    <img class="banner" src="banner/banner.jpg" alt="Banner">
-    <div class="principal">
+  <section class="banner">
+
+  
+ 
+  <div class="wave" style="height: 150px; overflow: hidden;" >
+  <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+    <path d="M-4.22,20.23 C210.78,213.66 366.53,-61.66 499.72,34.05 L529.06,159.38 L0.00,150.00 Z" style="stroke: none; fill: #cccccc;">
+
+    </path>
+  </svg>
+  
+</div>
+</section>
+
+</section>
+    <section  class="principal">
+    <div>
 
         <h2 class="titulodifer">Sobre la Barbería Alura</h2>
 
@@ -25,7 +52,9 @@
         <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.</p> 
 
     </div>
-    <div class="diferencial"> 
+
+  <section>  
+      <div class="diferencial"> 
         <h3 class="titulodifer">Diferencial</h3>
         <ul class="lista">
 <li class="items">- Antenciona personalizada a los clientes</li>
@@ -34,12 +63,18 @@
 <li class="items">- Profecionales calificados</li>
 
 </ul>
-<img  class="imgdiferencial" src="diferenciales/diferenciales.jpg" alt="barbero">
+<img  class="imgdiferencial" src="img/diferenciales/diferenciales.jpg" alt="barbero">
 </div>
+</section>
+
 <section>
 
 
 </section>
 </main>
+<footer>
+    <img src="img/logo-blanco.png" alt="Logoblanco">
+    <p class="foot">&copy; Copyright Baberia Alura-2023</p>
+  </footer>
 </body>
 </html>

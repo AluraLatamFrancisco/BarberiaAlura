@@ -13,6 +13,12 @@
     right: 0;
     
 }
+.titulo-centralizado{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
 .nav-bloqu{
     /*se asigna el valor que necesitamos que tenga*/
     width: 940px;
@@ -96,7 +102,7 @@ border-radius: 30px;
 
     footer{
         text-align: center;
-        background: url(/img/bg.jpg);
+        background: url(/BarberiaAlura/img/bg.jpg);
         padding: 40px;
 
     }
